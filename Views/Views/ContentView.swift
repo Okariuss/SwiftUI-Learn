@@ -11,15 +11,12 @@ struct ContentView: View {
     var body: some View {
         VStack {
             
-            Image("istanbul")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: UIScreen.main.bounds.width * 0.8, height: UIScreen.main.bounds.height * 0.3, alignment: .center)
+            SpecialImage(imageName: "istanbul")
             
             Text("Hello, world!")
                 .foregroundStyle(.purple)
                 .fontWeight(.heavy)
-            .font(.largeTitle)
+                .font(.largeTitle)
             
             Text("Merhaba Dünya")
                 .font(.title)

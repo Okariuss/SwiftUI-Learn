@@ -11,6 +11,7 @@
 		EB2A8FA42C3A8E00009B5EAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2A8FA32C3A8E00009B5EAA /* ContentView.swift */; };
 		EB2A8FA62C3A8E01009B5EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2A8FA52C3A8E01009B5EAA /* Assets.xcassets */; };
 		EB2A8FA92C3A8E01009B5EAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2A8FA82C3A8E01009B5EAA /* Preview Assets.xcassets */; };
+		EB2A8FB02C3A98FB009B5EAA /* SpecialImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2A8FAF2C3A98FB009B5EAA /* SpecialImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EB2A8FA32C3A8E00009B5EAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB2A8FA52C3A8E01009B5EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB2A8FA82C3A8E01009B5EAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB2A8FAF2C3A98FB009B5EAA /* SpecialImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EB2A8FA12C3A8E00009B5EAA /* ViewsApp.swift */,
 				EB2A8FA32C3A8E00009B5EAA /* ContentView.swift */,
+				EB2A8FAF2C3A98FB009B5EAA /* SpecialImage.swift */,
 				EB2A8FA52C3A8E01009B5EAA /* Assets.xcassets */,
 				EB2A8FA72C3A8E01009B5EAA /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2A8FB02C3A98FB009B5EAA /* SpecialImage.swift in Sources */,
 				EB2A8FA42C3A8E00009B5EAA /* ContentView.swift in Sources */,
 				EB2A8FA22C3A8E00009B5EAA /* ViewsApp.swift in Sources */,
 			);
